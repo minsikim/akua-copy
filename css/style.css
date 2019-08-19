@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ramaraja', serif;
+    color: rgba(0,0,0,0.8);
+}
+
+.custom-button{
+    padding: 15 60px;
+    background-color: white;
+    border: 3px solid #00A499;
+    box-shadow:  10px 10px 0px 0px #00A499;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1em;
+    color: #00A499;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* #region Main Layout */
+
+.main-menu-bar{
+    position: absolute;
+    height: 110px;
+    width: 1200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+
+    font-family: 'Lexend Exa', sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-front-page{
+    height: 780px;
+    background-color: #D3F1E8;
+}
+
+.container{
+    height: 880px;
+}
+
+/* #endregion */
+
+/* #region Menu bar */
+
+.main-menu-bar svg{
+    fill: #00A499;
+}
+
+.main-menu-bar .main-logo{
+
+}
+
+.main-menu-bar .store-page-button{
+    width: 110px;
+    height: 110px;
+    position: relative;
+}
+.main-menu-bar .store-page-button svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.main-menu-bar .navigation{
+    display: flex;
+    align-items: center;
+}
+.main-menu-bar .navigation nav ul{
+    display: flex;
+}
+.main-menu-bar .navigation nav ul li{
+    /* width: 120px; */
+    margin: 0 15px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+/* #endregion */
+
+
+/* #region Front Page */
+
+.main-front-page .front-title{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 200 20px;
+    text-align: center;
+}
+.main-front-page .front-title h1{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+/* #endregion */
